@@ -1,0 +1,69 @@
+h1{
+   background-image: url('snow.jpg');
+   background-size: cover;
+            color: rgb(19, 10, 10); 
+            padding: 140px;
+            width: 100%;
+}
+ 
+body{
+    align-items: center;
+}
+#ips{
+     padding:5% 5%;
+}
+#cityInput{
+    border-radius: 5rem;
+    width:100%;
+    padding: 10px;
+    font-size:1.5rem;
+    border-color:aliceblue;
+}
+*{
+    background-color: rgb(24, 21, 65);
+    color:aliceblue;
+    font-family: "Times New Roman", serif;
+    
+}
+#weatherData{
+    text-align: center;
+    margin-right:20px;
+    box-sizing: border-box;
+    border:1rem aliceblue;
+    
+}
+#icon1{
+    padding-top:40% ;
+}
+#temp{
+    font-size:25px;
+    font-weight: bolder;
+    border:0px;
+}
+#cname{
+    font-size:20px;
+}
+#bicon{
+     border-left:20px;
+      
+}
+#big{
+    display:flex;
+    justify-content:center;
+}
+#sdiv{
+    display: flex;
+    flex-direction: column;
+    margin-right:30px;
+    padding-right:20px;
+}
+#forecastData{
+    display: flex;
+    justify-content:center;
+    padding-top:15px;
+} 
+
+#simg{
+    width:65px;
+    height:65px;
+}
